@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: opx;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+     background-color: rgb(221, 49, 49);
+     justify-content: space-around;
+     position: fixed;
+     width: 100%;
+
+}
+
+.start img{
+    padding-top: 12px;
+}
+.middle{
+    /* width: 75%; */
+    display: flex;
+
+}
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.last{
+    font-size: 24px;
+    
+    
+}
+.contect-logo{
+    padding-top: 12px;
+    
+}
+.fa-brand{
+    font-weight: 400;
+    padding-left: 12px;
+}
+.bannar{
+    background-image: url(image/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    display: block;
+    background-attachment: scroll;
+    
+    width: 100%;
+}
+.bannar-text{
+    padding-top: 100px;
+    
+} 
+.bannar-text h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+}
+.bannar-text h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+.bannar-text p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+.hire-me{
+    width: 100%;
+}
+.hire-me a{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(237, 237, 235);
+    border: 2px solid aqua;
+    width: 180px;
+    padding: 5px;
+    border-radius: 60px;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+a :visited{
+    background-color: rgb(81, 81, 233);
+}
+a:hover{
+background-color: aqua;
+}
+.know-me-more{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.know-me-more h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+.about-me-bannar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-box-1{
+    width: 60%;
+}
+.text-box-1 h3 {
+    font-family: 'Poppins', sans-serif;
+
+}
+.text-box-1 h3 span{
+    color: aqua;
+}
+.text-box-1 p{
+    font-family: 'Poppins', sans-serif;
+}
+.list-about-me{
+    width: 20%;
+    padding-top: 25px;
+}
+.list-about-me ul li{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+.cv{
+    width: 100%;
+}
+.cv a{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(242, 98, 26);
+    border: 2px solid aqua;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.box-1{
+    width: 100%;
+    height: 200px;
+}
+.what-i-do{
+background-color: #f8f9fa;
+padding-top: 100px;
+padding-bottom: 100px;
+
+
+}
+.what-i-do h2{
+    text-align: center;
+    font-size: 36px;
+   
+}
+.left-right-parent{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.left-patent{
+    width: 40%;
+}
+.right-parent{
+    width: 40%;
+}
+.resume-parent{
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.resume-parent h2{
+    text-align: center;
+    font-size: 46px;
+}
+
+.resume-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.my-education{
+    width: 40%;
+}
+.my-education h3{
+    text-align: left;
+}
+.education{
+    width: 600px;
+    height: 230px;
+    margin-bottom: 80px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.education h4{
+    font-size: 21px;
+}
+.education h5{
+    color:#dd537f ;
+    font-size: 16px;
+}
+
+.my-experiance{
+    width: 40%;
+}
+.experance{
+    width: 600px;
+    height: 230px;
+    margin-bottom: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.experance h4{
+    font-size: 21px;
+}
+.experance h5{
+    color:#dd537f ;
+    font-size: 16px;
+}
+.time{
+    background-color: aqua;
+    width: 90px;
+    border-radius: 7px;
+}
+.my-skills-parent{
+    width: 100%;
+}
+.skills-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.skills-child-1{
+    width: 40%;
+    
+    justify-content: flex-start;
+}
+.skills-child-2{
+    width: 40%;
+    
+    justify-content: flex-end;
+    
+}
+.my-skills-parent h3{
+    font-size: 24px;
+    padding-left: px;
+}
+.skills-1 h6{
+    font-size: 16px;
+    color: aqua;
+
+}
+.skills-1 h6 span{
+    float: inline-end;
+}
+.line{
+    width: 610px;
+    height: 20px;
+    color: aqua;
+    border: 1px solid black;
+    border-radius: 8px;
+
+
+}
+.line-child-1{
+    background-color: aqua;
+    width: 65%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
+.line-child-2{
+    background-color: aqua;
+    width: 50%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
+.line-child-3{
+    background-color: aqua;
+    width: 70%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
+.line-child-4{
+    background-color: aqua;
+    width: 65%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
+.line-child-5{
+    background-color: aqua;
+    width: 50%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
+.line-child-6{
+    background-color: aqua;
+    width: 70%;
+    height: inherit;
+    border-radius: inherit;
+    border: 1px solid aqua;
+
+}
